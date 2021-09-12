@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+<PropertyGroup>
+<OutputType>EXE</OutputType>
+<TargetFramework>netcoreapp3.1</TargetFramework>
+<RootNamespace>Bunnybot</RootNamespace>
+</PropertyGroup>
+
+<ItemGroup>
+<PackageReference Include="Discord.NET" Version="2.4.0"/>
+<PackageReference Include="Microsoft.Extentions.DependencyInjection" Version="3.1.0"/>
+</ItemGroup>
+
+</Project>
